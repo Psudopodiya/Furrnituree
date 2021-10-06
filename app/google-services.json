@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722393131494",
+    "project_id": "furrnituree",
+    "storage_bucket": "furrnituree.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722393131494:android:9b53a43cccf65b6d7f8e27",
+        "android_client_info": {
+          "package_name": "com.example.furrnituree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722393131494-g7d3tjm3dhphegsk5cop4c4egi4b5kjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAK64cdaZNxt8L7ww93sc1u4l2Sec7ns4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722393131494-g7d3tjm3dhphegsk5cop4c4egi4b5kjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
