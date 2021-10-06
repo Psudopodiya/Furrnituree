@@ -11,7 +11,7 @@ import android.widget.EditText;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-
+    Button mLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,4 +22,6 @@ public class MainActivity extends AppCompatActivity {
         FirebaseAuth.getInstance().signOut();
         startActivity(new Intent(getApplicationContext(),Login.class));
     }
+
+
 }
