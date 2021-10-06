@@ -33,6 +33,11 @@ public class Register extends AppCompatActivity {
         mBtnRegister = findViewById(R.id.btnregister);
         mAuth = FirebaseAuth.getInstance();
 
+        if(mAuth.getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext() ,MainActivity.class));
+            finish();
+        }
+
         mBtnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,7 +65,7 @@ public class Register extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext() ,MainActivity.class));
                         }
                         else{
-                            Toast.makeText(Register.this,"Error Occured",)
+                            Toast.makeText(Register.this,"Error"+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
